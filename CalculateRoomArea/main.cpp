@@ -1,7 +1,6 @@
 #include <iostream>
 
 int main() {
-	
 	auto room_width { 0 };
 	std::cout << "Enter the width of the room: ";
 	std::cin >> room_width;
