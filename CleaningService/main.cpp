@@ -28,7 +28,7 @@ int main() {
 	const auto total_tax{total_cost * sales_tax};
 	std::cout << "Total Tax: $" << total_tax << "\n";
 	std::cout << "\n==============================================\n";
-	
+
 	const auto total_estimate{total_cost + total_tax};
 	std::cout << "Total estimate: $" << total_estimate << "\n";
 	std::cout << "This estimate is valid for " << estimate_expiry << " days." << "\n";
