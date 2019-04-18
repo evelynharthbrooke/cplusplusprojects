@@ -4,7 +4,7 @@ int main() {
 	std::cout << "Enter the width of the room: ";
 	auto room_width{0};
 	std::cin >> room_width;
-
+		
 	std::cout << "Enter the length of the room: ";
 	auto room_length{0};
 	std::cin >> room_length;
