@@ -23,6 +23,7 @@
     <ProjectGuid>{E4C5340B-AF0E-4A3A-8EC0-BC4231D9729A}</ProjectGuid>
     <RootNamespace>CarpetCleaningService</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CleaningService</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
