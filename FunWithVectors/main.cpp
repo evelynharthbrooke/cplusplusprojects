@@ -1,11 +1,8 @@
 #include <iostream>
 #include <vector>
 
-// this is not generally recommended, but because of the fact that
-// not doing this leads to a little bit of ugly code and duplication,
-// use it for this program only to cleanup the code and prevent having
-// duplication.
-using namespace std;
+using std::vector;
+using std::cout;
 
 int main() {
 
