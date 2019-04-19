@@ -36,7 +36,8 @@ int main() {
 	cout << "Elements in vector_2d: " << "\n";
 	// the multi-dimensional vector will not reflect the
 	// updated 1000 value that was assigned to the first
-	// element in vector1.
+	// element in vector1, due to the multi-dimensional
+	// vector storing copies of the original elements.
 	cout << vector_2d.at(0).at(0) << " " << vector_2d.at(0).at(1) << "\n";
 	cout << vector_2d.at(1).at(0) << " " << vector_2d.at(1).at(1) << "\n\n";
 
